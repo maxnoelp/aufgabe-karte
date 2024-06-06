@@ -1,0 +1,241 @@
+*,
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  font-style: sans-serif;
+}
+
+.reisen {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 2px;
+  max-width: 300px;
+  margin-left: 20px;
+  box-shadow: 4px 4px darkslateblue;
+}
+
+.reisen-bild {
+  height: 100px;
+  object-fit: cover;
+}
+
+.Lian {
+  width: 15px;
+  height: 15px;
+  border: 2px solid darkslateblue;
+  border-radius: 40px;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+.Jahr {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 2px;
+  max-width: 300px;
+  margin-left: 20px;
+  box-shadow: 4px 4px darkorange;
+}
+
+.railey {
+  width: 15px;
+  height: 15px;
+  border: 2px solid darkslateblue;
+  border-radius: 40px;
+  margin-top: 0.25rem;
+  margin-right: 1rem;
+}
+
+.jahr-bild {
+  height: 100px;
+  object-fit: cover;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Veröffentlicht {
+  font-size: 8px;
+  display: flex;
+  padding-right: 1rem;
+  color: lightgray;
+  margin-left: -0.01rem;
+}
+
+p:nth-child(1) {
+  flex-grow: 1;
+}
+
+div,
+p,
+header {
+  margin-left: 1rem;
+}
+
+.lian,
+.rename {
+  margin-left: -0.9rem;
+}
+.hashtags {
+  display: inline-block;
+  flex-direction: row;
+  font-size: 0.5rem;
+  margin-left: -0rem;
+}
+
+.hashtags-reisen {
+  border: 2px solid deepskyblue;
+  border-radius: 6px;
+  display: inline-flex;
+  background-color: deepskyblue;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.hashtag-jahr {
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 0.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.55rem;
+}
+
+.hashtags-jahr {
+  font-size: 0.5rem;
+  border: 2px solid deepskyblue;
+  border-radius: 6px;
+  display: inline-flex;
+  background-color: deepskyblue;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.hashtags-ja {
+  border: 2px solid deepskyblue;
+  border-radius: 6px;
+  display: inline-flex;
+  background-color: deepskyblue;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.content {
+  padding-right: 1rem;
+  font-size: 0.75rem;
+}
+
+.button-3 {
+  appearance: none;
+  background-color: darkslateblue;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 6px;
+  padding: 3px 3px;
+  position: relative;
+  margin-left: 1rem;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: darkblue;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: darkblue;
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: blue;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
+
+.button-4 {
+  appearance: none;
+  background-color: darkorange;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 0.5rem;
+  font-weight: 600;
+  line-height: 6px;
+  padding: 3px 3px;
+  position: relative;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-4:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-4:hover {
+  background-color: #2c974b;
+}
+
+.button-4:focus {
+  box-shadow: rgba(46, 164, 79, 0.4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-4:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
+}
